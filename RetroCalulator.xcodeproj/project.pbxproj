@@ -14,6 +14,7 @@
 		C91AC9641E1493C300AFE73E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C91AC9621E1493C300AFE73E /* LaunchScreen.storyboard */; };
 		C91AC96F1E1493C300AFE73E /* RetroCalulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91AC96E1E1493C300AFE73E /* RetroCalulatorTests.swift */; };
 		C91AC97A1E1493C300AFE73E /* RetroCalulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91AC9791E1493C300AFE73E /* RetroCalulatorUITests.swift */; };
+		C94877CA1E15E6C8003BBF26 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C94877C91E15E6C8003BBF26 /* Minecraft.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C91AC9751E1493C300AFE73E /* RetroCalulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroCalulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C91AC9791E1493C300AFE73E /* RetroCalulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroCalulatorUITests.swift; sourceTree = "<group>"; };
 		C91AC97B1E1493C300AFE73E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C94877C91E15E6C8003BBF26 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				C91AC95D1E1493C300AFE73E /* Main.storyboard */,
 				C91AC9601E1493C300AFE73E /* Assets.xcassets */,
 				C91AC9621E1493C300AFE73E /* LaunchScreen.storyboard */,
+				C94877C91E15E6C8003BBF26 /* Minecraft.ttf */,
 				C91AC9651E1493C300AFE73E /* Info.plist */,
 			);
 			path = RetroCalulator;
@@ -237,6 +240,7 @@
 			files = (
 				C91AC9641E1493C300AFE73E /* LaunchScreen.storyboard in Resources */,
 				C91AC9611E1493C300AFE73E /* Assets.xcassets in Resources */,
+				C94877CA1E15E6C8003BBF26 /* Minecraft.ttf in Resources */,
 				C91AC95F1E1493C300AFE73E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +518,7 @@
 				C91AC9801E1493C300AFE73E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C91AC9811E1493C300AFE73E /* Build configuration list for PBXNativeTarget "RetroCalulatorTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				C91AC9831E1493C300AFE73E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C91AC9841E1493C300AFE73E /* Build configuration list for PBXNativeTarget "RetroCalulatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				C91AC9861E1493C300AFE73E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
